@@ -1,0 +1,21 @@
+{
+  "Authentication": {
+    "OPEN_OPTIONS": "Open options",
+    "AUTHENTICATING_ACCOUNT": "Authenticating account...",
+    "AUTHENTICATING_ACCOUNT_SUCCESS": "Account authenticated!",
+    "AUTHENTICATING_OTP": "Authenticating OTP...",
+    "ERROR_ACCOUNT_NOT_SET": "Account is not set",
+    "ERROR_LOAD_FAILURE": "Failed to load account",
+    "ERROR_INVALID_STATUS_CODE": "Status code is invalid",
+    "ERROR_AUTHENTICATE_FAILURE": "Failed to authenticate"
+  },
+  "Options": {
+    "ACCOUNT": "Account",
+    "PASSWORD": "Password",
+    "OTP_SECRET": "OTP Secret",
+    "INVALID_VALUE": "Invalid value",
+    "SAVE": "Save",
+    "SAVED": "Saved!",
+    "UNKNOWN_ERROR": "Unknown error"
+  }
+}

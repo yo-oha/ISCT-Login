@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "ISCT Login",
+  "version": "1.0.0",
+  "description": "Automatic, fast login to Science Tokyo Potal",
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "options_ui": {
+    "page": "options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://isct.ex-tic.com/auth/session"
+      ],
+      "js": [
+        "js/authenticate.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

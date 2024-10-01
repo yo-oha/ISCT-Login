@@ -1,0 +1,21 @@
+{
+  "Authentication": {
+    "OPEN_OPTIONS": "オプションを開く",
+    "AUTHENTICATING_ACCOUNT": "アカウント認証中...",
+    "AUTHENTICATING_ACCOUNT_SUCCESS": "アカウント認証成功",
+    "AUTHENTICATING_OTP": "OTP認証中...",
+    "ERROR_ACCOUNT_NOT_SET": "アカウントが設定されていません",
+    "ERROR_LOAD_FAILURE": "アカウントの読み込みに失敗しました",
+    "ERROR_INVALID_STATUS_CODE": "不正なステータスコードです",
+    "ERROR_AUTHENTICATE_FAILURE": "認証に失敗しました"
+  },
+  "Options": {
+    "ACCOUNT": "アカウント",
+    "PASSWORD": "パスワード",
+    "OTP_SECRET": "OTP シークレット",
+    "INVALID_VALUE": "無効な値です",
+    "SAVE": "保存する",
+    "SAVED": "保存しました",
+    "UNKNOWN_ERROR": "不明なエラーが発生しました"
+  }
+}
