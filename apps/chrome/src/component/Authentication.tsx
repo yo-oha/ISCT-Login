@@ -161,13 +161,13 @@ const asyncActionHandlers: AsyncActionHandlers<
         const totpToken = TOTP.generate({
           secret: Secret.fromBase32(account.otpSecret),
         })
-        const secondParams = new URLSearchParams()
-        secondParams.append('utf8', '✓')
-        secondParams.append('authenticity_token', secondCsrfToken)
-        secondParams.append('totp', totpToken)
+        const secondForm = new FormData()
+        secondForm.append('utf8', '✓')
+        secondForm.append('authenticity_token', secondCsrfToken)
+        secondForm.append('totp', totpToken)
         const response = await fetch(LOGIN_SECOND_URL, {
           method: 'POST',
-          body: secondParams,
+          body: secondForm,
           headers: {
             // これ以降のリダイレクトはlocationごと遷移したため、javascriptで受け取る
             Accept:
