@@ -10,4 +10,8 @@ const renderAuthentication = () => {
 }
 
 renderAuthentication()
-i18next.changeLanguage('ja')
+if (document.documentElement.innerText.includes('次へ')) {
+  i18next.changeLanguage('ja')
+} else {
+  i18next.changeLanguage('en')
+}
