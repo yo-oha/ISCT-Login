@@ -1,0 +1,15 @@
+{
+    "[json]": {
+        "editor.tabSize": 2,
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "files.associations": {
+        ".prettierrc": "yaml",
+    },
+    "editor.formatOnSave": true
+}
