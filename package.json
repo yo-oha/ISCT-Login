@@ -3,7 +3,8 @@
     "format": "prettier --write src",
     "build": "webpack",
     "watch": "webpack -w",
-    "build:prod": "NODE_ENV=production webpack && zip -r dist.zip dist/"
+    "build:chrome": "NODE_ENV=production webpack --env browser=chrome && zip -r dist.zip dist/",
+    "build:firefox": "NODE_ENV=production webpack --env browser=firefox && (cd dist && zip -r ../dist-firefox.zip .)"
   },
   "devDependencies": {
     "@chakra-ui/icons": "^2.0.17",
