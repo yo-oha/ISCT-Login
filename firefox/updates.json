@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "isct-login@github.sheat.tokyo": {
+      "updates": [
+        {
+          "version": "1.0.1",
+          "update_link": "https://raw.githubusercontent.com/yo-oha/ISCT-Login/refs/heads/main/firefox/releases/1.0.1.xpi"
+        }
+      ]
+    }
+  }
+}

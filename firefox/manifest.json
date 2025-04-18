@@ -3,7 +3,8 @@
   "name": "ISCT Login",
   "browser_specific_settings": {
     "gecko": {
-      "id": "isct-login@sheat.tokyo"
+      "id": "isct-login@github.sheat.tokyo",
+      "update_url": "https://raw.githubusercontent.com/yo-oha/ISCT-Login/refs/heads/main/firefox/updates.json"
     }
   },
   "version": "1.0.1",
